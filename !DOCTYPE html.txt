@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Газета Друзів</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1>Газета Друзів</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#news">Новини</a></li>
+          <li><a href="#opinions">Мнения</a></li>
+          <li><a href="#science">Наука</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Section for News -->
+    <section id="news" class="category">
+      <h2>Новини</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="news1.jpg" alt="Новина 1">
+          <h3>Заголовок новини 1</h3>
+          <p>Короткий опис новини...</p>
+          <a href="#">Читати далі</a>
+        </div>
+        <div class="grid-item">
+          <img src="news2.jpg" alt="Новина 2">
+          <h3>Заголовок новини 2</h3>
+          <p>Короткий опис новини...</p>
+          <a href="#">Читати далі</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section for Opinions -->
+    <section id="opinions" class="category">
+      <h2>Мнения</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="opinion1.jpg" alt="Думка 1">
+          <h3>Заголовок думки 1</h3>
+          <p>Короткий опис...</p>
+          <a href="#">Читати далі</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section for Science -->
+    <section id="science" class="category">
+      <h2>Наука</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="science1.jpg" alt="Наукова стаття 1">
+          <h3>Заголовок статті 1</h3>
+          <p>Короткий опис...</p>
+          <a href="#">Читати далі</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Газета Друзів. Всі права захищені.</p>
+    </div>
+  </footer>
+</body>
+</html>
